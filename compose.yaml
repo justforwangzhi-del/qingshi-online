@@ -1,0 +1,10 @@
+services:
+  qingshi:
+    build: .
+    ports:
+      - "127.0.0.1:8787:8787"
+    env_file: .env
+    restart: unless-stopped
+    mem_limit: 1g
+    cpus: 2
+    init: true
