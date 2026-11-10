@@ -1,0 +1,14 @@
+* text=auto
+*.js text eol=lf
+*.mjs text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.pdf binary
+*.png binary
+*.bcmap binary
+*.wasm binary
+*.pfb binary
+*.ttf binary
+*.icc binary

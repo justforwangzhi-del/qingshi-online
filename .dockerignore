@@ -1,9 +1,0 @@
-.env
-.env.*
-!.env.example
-__pycache__/
-*.pyc
-pdf-cache/
-exports/
-.venv/
-*.log
